@@ -1,33 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="main.js"></script>
 	<title>Berkshire Waldorf School</title>
-	
+
 </head>
+
 <body>
 	<div id="top">
-	<div id="header">
-		<span id="logo">Berkshire Waldorf School</span>
-		<div id="nav">
-			<a id="discover">discover</a>
-			<a id="programs">programs</a>
-			<a id="resources">resources</a>
-			<a id="donate">donate</a>
+		<div id="header">
+			<span id="logo">Berkshire Waldorf School</span>
+			<div id="nav" class="closed">
+				<svg id="close-nav" viewBox="0 0 50 50" preserveAspectRatio="none">
+					<line id="l1" x1="0" y1="0" x2="50" y2="50" style="stroke:white;stroke-width:8" />
+
+					<line id="l2" x1="50" y1="0" x2="0" y2="50" style="stroke:white;stroke-width:8" />
+				</svg>
+				<a id="discover">discover</a>
+				<a id="programs">programs</a>
+				<a id="resources">resources</a>
+				<a id="donate">donate</a>
+			</div>
+
 		</div>
-		
+		<div id="banner">
+			<span id="text"> Be part of something special. </span>
+			<a id="button">Join Our Community</a>
+		</div>
+
+		<video muted loop autoplay="autoplay">
+			<source src="background.webm" type="video/webm">
+		</video>
 	</div>
-	<div id="banner">
-		<span id="text">Be part of something special.</span>
-		<a id="button">Join Our Community</a>
-	</div>
-	<video muted loop autoplay="autoplay">
-		<source src="background.webm" type="video/webm">
-	</video>
 	</div>
 </body>
+
 </html>
