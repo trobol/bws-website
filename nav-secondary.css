@@ -1,0 +1,85 @@
+#nav-secondary {
+	width:300px;
+	position: fixed;
+	background:white;
+	padding: 30px 0;
+	margin: 30px;
+	-webkit-box-shadow: 10px 15px 40px 0px rgba(0,0,0,0.09);
+	-moz-box-shadow: 10px 15px 40px 0px rgba(0,0,0,0.09);
+	box-shadow: 10px 15px 40px 0px rgba(0,0,0,0.09);
+}
+
+#nav-secondary ul {
+	padding:0;
+}
+
+#nav-secondary>ul>li {
+	text-transform: uppercase;
+	padding: 20px 0;
+	font-size:20pt;
+	list-style: none;
+	letter-spacing: 0.02em;
+	transition: 0.2s;
+	-webkit-box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.09);
+	-moz-box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.09);
+	box-shadow: inset 0px 0px 0px 0px rgba(0,0,0,0.09);
+}
+#nav-secondary>ul>li:hover, #nav-secondary li.selected {
+	background:#f2f5f8;
+	-webkit-box-shadow: inset 0px 3px 4px 0px rgba(0,0,0,0.09);
+	-moz-box-shadow: inset 0px 3px 4px 0px rgba(0,0,0,0.09);
+	box-shadow: inset 0px 3px 4px 0px rgba(0,0,0,0.09);
+}
+
+#nav-secondary li span {
+	font-weight: 400;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	user-select: none;
+	padding-left:50px;
+	
+}
+
+#nav-secondary li li {
+	font-weight: 400;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	user-select: none;
+	text-transform: none;
+	padding: 10px 75px;
+}
+
+#nav-secondary li ul {
+	height: 0px;
+	overflow: hidden;
+	margin-top:0;
+	transition:0.5s;
+}
+
+#nav-secondary li.selected ul {
+	height: auto;
+	margin-top:10px;
+}
+
+#nav-secondary>ul>li li:hover {
+	background:grey;
+}
+
+#nav-secondary div {
+	padding: 0 0 30px 50px;
+}
+
+#nav-secondary div span {
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	font-weight: 400;
+}
+
+#nav-secondary img {
+	height: 25px;
+    position: absolute;
+    right: 45px;
+    top: 38px;
+}
